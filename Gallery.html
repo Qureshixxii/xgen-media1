@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery XGen Media</title>
+    <link rel="shortcut icon" href="./assets/xgen-media-icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/button&fun.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        html {
+            overflow-x: hidden;
+        }
+
+        .video-sec2 {
+            object-fit: cover;
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+    <section class="h100 position-relative">
+        <div class="background-overlay"></div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark position-absolute w-100" style="z-index: 10;">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a class="navbar-brand" href="#">
+                        <img class="list-group-horizontal" width="100" height="120" src="./assets/xgen-media-logo.png"
+                            alt="Logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-md-5 ps-md-5 me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./index.php">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./about-us.php">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Service</a>
+                            <ul class="dropdown-menu pe-5">
+                                <li>
+                                    <a class="dropdown-item" href="./the-social.html">The Social</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./drone-services.php">Drone Services</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./editing-services.php">Editing Services</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./sound-prof.php">Sound Proof Studio</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./Gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./contact-us.php">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <div
+                            class="rounded-circle d-flex justify-content-center bg-warning border border-4 border-white">
+                            <button class="btn">
+                                <i class="bi bi-telephone-fill text-light fs-3 my-auto"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Video Background -->
+        <video id="front_video" autoplay loop muted class="position-absolute top-0 start-0 w-100 h-100 object-cover"
+            style="z-index: 1;" src="./assets/Home-Video-Collage.mp4"></video>
+        <!-- Centered Content -->
+        <div class="container-fluid position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center text-center"
+            style="z-index: 3;">
+            <div>
+                <p class="text-25-heading">XGen Media Production</p>
+                <h1 class="text-125">Gallery</h1>
+            </div>
+        </div>
+    </section>
+    <section class="sec2_gallery p-1">
+        <p class="text-white text-100 text-center py-md-5 py-3">A Visual Journey</p>
+        <div class="container">
+            <div class="row justify-content-lg-center justify-content-md-start justify-content-center">
+                <!-- Image Gallery -->
+                <div class="col-xl-6 col-md-6 mb-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="./assets/HHS_0958.jpg" class="media-item" data-type="image">
+                                <img class="img-fluid mb-3" src="./assets/HHS_0958.jpg" alt="studio-image">
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <a href="./assets/Group.png" class="media-item" data-type="image">
+                                <img class="img-fluid" src="./assets/Group.png" alt="group-image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Gallery -->
+                <div class="col-xl-4 col-md-4 col-sm-12 mb-3">
+                    <div class="row justify-content-center">
+                        <div class="col-12 gallery-item mb-3">
+                            <a href="./assets/Legends-Arena-drone-shoot.mp4" class="media-item" data-type="video">
+                                <div class="box">
+                                    <video class="w-90 h-set" autoplay muted loop
+                                        src="./assets/Legends-Arena-drone-shoot.mp4"></video>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 gallery-item">
+                            <a href="./assets/Sound-Proof-Studio.mp4" class="media-item" data-type="video">
+                                <div class="box">
+                                    <video class="w-90 h-set" autoplay muted loop
+                                        src="./assets/Sound-Proof-Studio.mp4"></video>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="row">
+                        <!-- Left Column -->
+                        <div class="col-lg-5 col-md-5 col-sm-12">
+                            <a href="./assets/Studio-Rect.png" class="media-item" data-type="image">
+                                <img class="img-fluid w-100 h-85 object-fit-cover" src="./assets/Studio-Rect.png"
+                                    alt="">
+                            </a>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="col-lg-7 col-md-7 col-sm-12">
+                            <a href="./assets/HHS_1146.jpg" class="media-item" data-type="image">
+                                <img class="img-fluid w-100 h-85 object-fit-cover" src="./assets/HHS_1146.jpg" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-lg-center justify-content-md-start justify-content-sm-center">
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn-cust text-white px-5 fs-5 border-0 rounded-3 py-2" id="toggleButton"
+                        style="background: #14416b;">Load More</button>
+                </div>
+                
+                <div class="col-xl-6 col-md-6 mb-3 onclick-show-sec" style="display: none;">
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="./assets/Our-Creative-Journey_2.mp4" class="media-item" data-type="video">
+                            <video autoplay loop muted src="./assets/Our-Creative-Journey_2.mp4"
+                                class="w-100 last_gallery_img gallery-item h-set"></video></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-4 col-md-4 mb-3 onclick-show-sec" style="display: none;">
+                    <div class="row justify-content-center">
+                        <div class="col-12 gallery-item mb-3">
+                            <a href="./assets/Studio-Square.png" class="media-item" data-type="image">
+                                <div class="box">
+                                    <img class="w-90 h-set"
+                                        src="./assets/Studio-Square.png" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 gallery-item">
+                            <a href="./assets/Saif-Samejo-Potraight.png" class="media-item" data-type="image">
+                                <div class="box">
+                                    <img class="w-90 h-set" 
+                                        src="./assets/Saif-Samejo-Potraight.png" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const button = document.getElementById('toggleButton');
+                    const content = document.querySelectorAll('.onclick-show-sec');
+            
+                    button.addEventListener('click', function() {
+                        // Hide the button
+                        button.style.display = 'none';
+            
+                        // Show the .onclick-show-sec content
+                        content.forEach(function(item) {
+                            item.style.display = 'block';
+                        });
+                    });
+                });
+            </script>
+            
+            
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="web_bluebackground">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-4 d-flex justify-content-center align-content-center py-5 border-bottom">
+                    <img height="130" src="./assets/xgen-media-logo.png" alt="">
+                </div>
+                <div class="col-md-3">
+                    <p class="text-light fw-bold text-30 text-center text-md-start">Quick Links</p>
+                    <p class="text-light text-17 text-center text-md-start">Home</p>
+                    <p class="text-light text-17 text-center text-md-start">About</p>
+                    <p class="text-light text-17 text-center text-md-start">Gallery</p>
+                    <p class="text-light text-17 text-center text-md-start">Contact us</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="text-light fw-bold text-30 text-center text-md-start">Services</p>
+                    <p class="text-light text-17 text-center text-md-start">The Social</p>
+                    <p class="text-light text-17 text-center text-md-start">Drone Services</p>
+                    <p class="text-light text-17 text-center text-md-start">Editing</p>
+                    <p class="text-light text-17 text-center text-md-start">Sound Proof Studio</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="text-light fw-bold text-30 text-center text-md-start">Our Policies</p>
+                    <p class="text-light text-17 text-center text-md-start">Privacy Policy</p>
+                    <p class="text-light text-17 text-center text-md-start">Cookie Policies</p>
+                    <p class="text-light text-17 text-center text-md-start">Term & Condition</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="text-light fw-bold text-30 text-center text-md-start">Get In Touch</p>
+                    <p class="text-light text-17 text-center text-md-start">+923011019576</p>
+                    <p class="text-light text-17 text-center text-md-start">Info@xgen.Media</p>
+                    <p class="text-light text-17 text-center text-md-start">Plot # 13-C , Stadium Commercial Lane 2, DHA Phase 5 , Karachi
+                        South.</p>
+                    <p class="text-center text-md-start"><i class="text-light fs-4 bi bi-facebook mx-2"></i>
+                      <i class="text-light fs-4 bi bi-youtube"></i>
+                      <i class="mx-2 text-light fs-4 bi bi-instagram"></i></p>
+                </div>
+                <div class="form text-center mt-md-5">
+                    <p class="text-light text-30 fw-bold">Sign up for our Newsletter Today</p>
+                    <p class="text-light text-17">Be the first to know about our new arrivals and exclusive offers.
+                    </p>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control bg-transparent backround-footer-input"
+                                    placeholder="Email Address" aria-label="Recipient's username"
+                                    aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Sign up
+                                    <i class="bi bi-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="text-light text-center text-17">© 2024 — XGen Media Production. All Rights
+                            Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Magnific Popup JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Initialize Magnific Popup for mixed content (images and videos)
+            $('.media-item').magnificPopup({
+                type: 'image', // Default type
+                gallery: {
+                    enabled: true, // Enable gallery navigation
+                    navigateByImgClick: true, // Allows navigating by clicking on media
+                    preload: [0, 1] // Preload the next and previous items
+                },
+                callbacks: {
+                    elementParse: function (item) {
+                        // Check if the item is a video
+                        if (item.el.data('type') === 'video') {
+                            item.type = 'iframe'; // Set type to iframe for videos
+                            item.iframe = {
+                                patterns: {
+                                    youtube: {
+                                        index: 'youtube.com/', // YouTube URL pattern
+                                        id: 'v=', // Extract video ID
+                                        src: '%id%?autoplay=1' // Autoplay when opened
+                                    },
+                                    vimeo: {
+                                        index: 'vimeo.com/', // Vimeo URL pattern
+                                        id: '/', // Extract video ID
+                                        src: '//player.vimeo.com/video/%id%?autoplay=1' // Autoplay when opened
+                                    },
+                                    directVideo: {
+                                        index: '', // Direct video URL pattern
+                                        id: '', // No ID extraction
+                                        src: item.el.attr('href') // Use the href directly
+                                    }
+                                }
+                            };
+                        }
+                    }
+                }
+            });
+        });
+
+
+        document.getElementById('toggleButton').addEventListener('click', function () {
+            var content = document.querySelector('.onclick-show-sec');
+            content.style.display = (content.style.display === 'none' ? 'block' : 'none');
+        });
+
+    </script>
+</body>
+
+</html>

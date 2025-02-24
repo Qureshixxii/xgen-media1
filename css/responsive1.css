@@ -1,0 +1,4568 @@
+@media (min-width: 330px) and (max-width: 350px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .h_gallery{
+        height: 60vh !important;
+    }
+    .text-125 {
+        font-size: 40px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 15px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+
+    .cust-margin-studio {
+        margin-bottom: 150px !important;
+    }
+
+    .text-20 {
+        font-size: 15px;
+    }
+
+    .sec-2 {
+        height: 80vh !important;
+        object-fit: cover;
+        margin-top: 200px;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .sp-y {
+        font-size: 35px;
+    }
+
+    .spstd {
+        font-size: 35px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 30vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 35vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 5vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: block !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        /* height: 50vh; */
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 150px;
+        margin-top: 25%;
+        margin-left: 8%;
+    }
+
+    .fs-100 {
+        font-size: 50px;
+    }
+
+    #parallex_mb {
+        margin-top: -105%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 17rem !important;
+        height: 35vh;
+    }
+
+    .text-16-sm {
+        font-size: 14px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 75vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 70vh !important;
+        margin-top: 55% !important;
+    }
+
+    .sethar {
+        height: 45vh;
+    }
+
+    .sethar_sm {
+        top: 270px;
+    }
+
+    .card_news {
+        width: 15rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 65vh;
+    }
+
+    /* footer */
+    .text-17 {
+        font-size: 16px;
+    }
+
+    .text-30 {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 100vh !important;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 370px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .text-125 {
+        font-size: 40px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 15px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+
+    .cust-margin-studio {
+        margin-bottom: 100px !important;
+    }
+
+    .text-20 {
+        font-size: 15px;
+    }
+
+    .sec-2 {
+        height: 110vh !important;
+        object-fit: cover;
+        margin-top: 180px;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .sp-y {
+        font-size: 55px;
+    }
+
+    .spstd {
+        font-size: 55px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: block !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 150px;
+        margin-top: 25%;
+        margin-left: 8%;
+    }
+
+    .fs-100 {
+        font-size: 50px;
+    }
+
+    #parallex_mb {
+        margin-top: 120% !important;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 17rem !important;
+        height: 35vh;
+    }
+
+    .text-16-sm {
+        font-size: 14px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 80vh !important;
+        margin-top: 55% !important;
+    }
+
+    .sethar {
+        height: 45vh;
+    }
+
+    .sethar_sm {
+        top: 270px;
+    }
+
+    .card_news {
+        width: 15rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 90vh;
+    }
+
+    /* footer */
+
+
+    .text-17 {
+        font-size: 16px;
+    }
+
+    .text-30 {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 100vh !important;
+    }
+
+}
+
+@media (min-width: 370px) and (max-width: 380px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .text-125 {
+        font-size: 40px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 15px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+
+    .cust-margin-studio {
+        margin-bottom: 150px !important;
+    }
+
+    .text-20 {
+        font-size: 15px;
+    }
+
+    .sec-2 {
+        height: 110vh !important;
+        object-fit: cover;
+        margin-top: 180px;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .sp-y {
+        font-size: 55px;
+    }
+
+    .spstd {
+        font-size: 55px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: block !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 150px;
+        margin-top: 25%;
+        margin-left: 8%;
+    }
+
+    .fs-100 {
+        font-size: 50px;
+    }
+
+    #parallex_mb {
+        margin-top: 88.5%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 17rem !important;
+        height: 40vh;
+    }
+
+    .text-16-sm {
+        font-size: 14px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 80vh !important;
+        margin-top: 55% !important;
+    }
+
+    .sethar {
+        height: 50vh;
+    }
+
+    .sethar_sm {
+        top: 270px;
+    }
+
+    .card_news {
+        width: 15rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 90vh;
+    }
+
+    /* footer */
+
+    .text-17 {
+        font-size: 16px;
+    }
+
+    .text-30 {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 100vh !important;
+    }
+
+}
+
+@media (min-width: 380px) and (max-width: 410px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .text-125 {
+        font-size: 40px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 15px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+
+    .cust-margin-studio {
+        margin-bottom: 150px !important;
+    }
+
+    .text-20 {
+        font-size: 15px;
+    }
+
+    .sec-2 {
+        height: 110vh !important;
+        object-fit: cover;
+        margin-top: 250px;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .sp-y {
+        font-size: 55px;
+    }
+
+    .spstd {
+        font-size: 55px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: block !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 150px;
+        margin-top: 60%;
+        margin-left: 8%;
+    }
+
+    .fs-100 {
+        font-size: 50px;
+    }
+
+    #parallex_mb {
+        margin-top: 125%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 17rem !important;
+        height: 32vh;
+    }
+
+    .text-16-sm {
+        font-size: 14px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 90vh !important;
+        margin-top: 15%;
+    }
+
+    .sethar {
+        height: 40vh;
+    }
+
+    .sethar_sm {
+        top: 270px;
+    }
+
+    .card_news {
+        width: 15rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 90vh;
+    }
+
+    /* footer */
+
+    .text-17 {
+        font-size: 16px;
+    }
+
+    .text-30 {
+        font-size: 27px;
+        font-weight: 900;
+    }
+
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 100vh !important;
+    }
+
+}
+
+@media (min-width: 410px) and (max-width: 425px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .text-125 {
+        font-size: 40px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 15px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+
+    .cust-margin-studio {
+        margin-bottom: 150px !important;
+    }
+
+    .text-20 {
+        font-size: 15px;
+    }
+
+    .sec-2 {
+        height: 110vh !important;
+        object-fit: cover;
+        margin-top: 180px;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .sp-y {
+        font-size: 55px;
+    }
+
+    .spstd {
+        font-size: 55px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: block !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 150px;
+        margin-top: 25%;
+        margin-left: 8%;
+    }
+
+    .fs-100 {
+        font-size: 50px;
+    }
+
+    #parallex_mb {
+        margin-top: 100%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 17rem !important;
+        height: 29vh;
+    }
+
+    .text-16-sm {
+        font-size: 14px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 200px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 80vh !important;
+        margin-top: 55% !important;
+    }
+
+    .sethar {
+        height: 37vh;
+    }
+
+    .sethar_sm {
+        top: 270px;
+    }
+
+    .card_news {
+        width: 15rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 90vh;
+    }
+
+    /* footer */
+
+    .text-17 {
+        font-size: 16px;
+    }
+
+    .text-30 {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 100vh !important;
+    }
+
+}
+
+@media (min-width: 430px) and (max-width: 500px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .text-125 {
+        font-size: 40px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 15px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+
+    .cust-margin-studio {
+        margin-bottom: 150px !important;
+    }
+
+    .text-20 {
+        font-size: 15px;
+    }
+
+    .sec-2 {
+        height: 110vh !important;
+        object-fit: cover;
+        margin-top: 180px;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .sp-y {
+        font-size: 55px;
+    }
+
+    .spstd {
+        font-size: 55px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: block !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 150px;
+        margin-top: 25%;
+        margin-left: 8%;
+    }
+
+    .fs-100 {
+        font-size: 50px;
+    }
+
+    #parallex_mb {
+        margin-top: 100%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 17rem !important;
+        height: 29vh;
+    }
+
+    .text-16-sm {
+        font-size: 14px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 200px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 80vh !important;
+        margin-top: 55% !important;
+    }
+
+    .sethar {
+        height: 37vh;
+    }
+
+    .sethar_sm {
+        top: 270px;
+    }
+
+    .card_news {
+        width: 15rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 90vh;
+    }
+
+    /* footer */
+
+    .text-17 {
+        font-size: 16px;
+    }
+
+    .text-30 {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 100vh !important;
+    }
+
+}
+
+
+@media (min-width: 500px) and (max-width: 650px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .text-125 {
+        font-size: 40px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 15px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+
+    .cust-margin-studio {
+        margin-bottom: 150px !important;
+    }
+
+    .text-20 {
+        font-size: 15px;
+    }
+
+    .sec-2 {
+        height: 110vh;
+        object-fit: cover;
+        margin-top: 180px;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .sp-y {
+        font-size: 55px;
+    }
+
+    .spstd {
+        font-size: 55px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: block !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 150px;
+        margin-top: 25%;
+        margin-left: 8%;
+    }
+
+    .fs-100 {
+        font-size: 50px;
+    }
+
+    #parallex_mb {
+        margin-top: 65%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 17rem !important;
+        height: 29vh;
+    }
+
+    .text-16-sm {
+        font-size: 14px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 200px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 80vh !important;
+        margin-top: 55% !important;
+    }
+
+    .sethar {
+        height: 37vh;
+    }
+
+    .sethar_sm {
+        top: 270px;
+    }
+
+    .card_news {
+        width: 15rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 90vh;
+    }
+
+    /* footer */
+
+    .text-17 {
+        font-size: 16px;
+    }
+
+    .text-30 {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 100vh !important;
+    }
+
+}
+
+@media (min-width: 650px) and (max-width: 768px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .text-125 {
+        font-size: 90px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 25px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+.sound-proff-studio{
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    .text-20 {
+        font-size: 18px;
+    }
+
+    .sec-2 {
+       height: 60vh;
+        object-fit: cover;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .sp-y {
+        font-size: 70px;
+    }
+
+    .spstd {
+        font-size: 70px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: none !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 250px;
+        margin-top: 20%;
+    }
+
+    .fs-100 {
+        font-size: 70px;
+    }
+
+    #parallex_mb {
+        margin-top: 50% ;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 20rem !important;
+        height: 27vh;
+    }
+
+    .text-16-sm {
+        font-size: 17px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        /* height: 50vh; */
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 80vh !important;
+        margin-top: 30%;
+    }
+
+    .sethar {
+        height: 37vh;
+    }
+
+    .sethar_sm {
+        top: 300px;
+    }
+
+    .card_news {
+        width: 22rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 50vh;
+    }
+    .new-width{
+        width: 22rem;
+    }
+    .cust-margin-studio1{
+        width: 35rem !important;
+        /* margin-bottom: 100%; */
+    }
+    .cust-margin-studio2{
+        width: 35rem !important;
+        margin-bottom: 5%;
+    }
+    .cust-div-video{
+        width: 22rem;
+    }
+    .cust-div{
+        width: 23.5rem;
+    }
+    .cust-margin-studio2{
+        margin-top: 15%;
+    }
+    /* footer */
+    .text-30{
+        font-size: 25px;
+    }
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 40vh !important;
+        margin-top: -7%;
+    }
+
+}
+
+@media (min-width:  768px) and (max-width: 840px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .text-125 {
+        font-size: 90px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 25px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+.sound-proff-studio{
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    .text-20 {
+        font-size: 18px;
+    }
+
+    .sec-2 {
+       height: 60vh;
+        object-fit: cover;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .sp-y {
+        font-size: 70px;
+    }
+
+    .spstd {
+        font-size: 70px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: none !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 250px;
+        margin-top: 20%;
+    }
+
+    .fs-100 {
+        font-size: 70px;
+    }
+
+    #parallex_mb {
+        margin-top: 52%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 20rem !important;
+        height: 26vh;
+    }
+
+    .text-16-sm {
+        font-size: 17px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 65vh !important;
+        margin-top: 2%;
+    }
+
+    .sethar {
+        height: 37vh;
+    }
+
+    .sethar_sm {
+        top: 300px;
+    }
+
+    .card_news {
+        width: 22rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 50vh;
+    }
+    .new-width{
+        width: 22rem;
+    }
+    .cust-margin-studio1{
+        width: 35rem !important;
+        /* margin-bottom: 100%; */
+    }
+    .cust-margin-studio2{
+        width: 35rem !important;
+        margin-bottom: 5%;
+    }
+    .cust-div-video{
+        width: 22rem;
+    }
+    .cust-div{
+        width: 23.5rem;
+    }
+    .cust-margin-studio2{
+        margin-top: 15%;
+    }
+    /* footer */
+    .text-30{
+        font-size: 25px;
+    }
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 40vh !important;
+        margin-top: -7%;
+    }
+    footer{
+        padding: 15px;
+    }
+
+}
+
+@media (min-width:  851px) and (max-width: 880px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .text-125 {
+        font-size: 90px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 25px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+.sound-proff-studio{
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    .text-20 {
+        font-size: 18px;
+    }
+
+    .sec-2 {
+       height: 60vh;
+        object-fit: cover;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .sp-y {
+        font-size: 70px;
+    }
+
+    .spstd {
+        font-size: 70px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: none !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 250px;
+        margin-top: 20%;
+    }
+
+    .fs-100 {
+        font-size: 70px;
+    }
+
+    #parallex_mb {
+        margin-top: 60%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 20rem !important;
+        height: 21vh;
+    }
+
+    .text-16-sm {
+        font-size: 17px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 55vh !important;
+        margin-top: 3%;
+    }
+
+    .sethar {
+        height: 29vh;
+    }
+
+    .sethar_sm {
+        top: 300px;
+    }
+
+    .card_news {
+        width: 22rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 50vh;
+    }
+    .new-width{
+        width: 22rem;
+    }
+    .cust-margin-studio1{
+        width: 35rem !important;
+        /* margin-bottom: 100%; */
+    }
+    .cust-margin-studio2{
+        width: 35rem !important;
+        margin-bottom: 5%;
+    }
+    .cust-div-video{
+        width: 22rem;
+    }
+    .cust-div{
+        width: 23.5rem;
+    }
+    .cust-margin-studio2{
+        margin-top: 15%;
+    }
+    /* footer */
+    .text-30{
+        font-size: 25px;
+    }
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 40vh !important;
+        margin-top: -7%;
+    }
+    footer{
+        padding: 15px;
+    }
+
+}
+
+
+@media (min-width:  890px) and (max-width: 920px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .video-background{
+        height: 70vh;
+    }
+    .video-background video {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+    .text-125 {
+        font-size: 90px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 25px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+    .sound-proff-studio{
+    min-height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .sec-drone-home {
+        background: url(../assets/file.png) fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 30vh;
+    }
+    .sec-drone-home .drone-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .text-20 {
+        font-size: 18px;
+    }
+
+    .sec-2 {
+       height: 60vh;
+        object-fit: cover;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: 33vh;
+        object-fit: contain;
+    }
+
+    .sp-y {
+        font-size: 70px;
+    }
+
+    .spstd {
+        font-size: 70px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: none !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 250px;
+        margin-top: 20%;
+    }
+
+    .fs-100 {
+        font-size: 70px;
+    }
+
+    #parallex_mb {
+        margin-top: 60%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 20rem !important;
+        height: 20vh;
+    }
+
+    .text-16-sm {
+        font-size: 17px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 80vh !important;
+        margin-top: 30%;
+    }
+
+    .sethar {
+        height: 28vh;
+    }
+
+    .sethar_sm {
+        top: 300px;
+    }
+
+    .card_news {
+        width: 22rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 50vh;
+    }
+    .new-width{
+        width: 22rem;
+    }
+    .cust-margin-studio1{
+        width: 35rem !important;
+        /* margin-bottom: 100%; */
+    }
+    .cust-margin-studio2{
+        width: 35rem !important;
+        margin-bottom: 5%;
+    }
+    .cust-div-video{
+        width: 22rem;
+    }
+    .cust-div{
+        width: 23.5rem;
+    }
+    .cust-margin-studio2{
+        margin-top: 15%;
+    }
+    /* footer */
+    .text-30{
+        font-size: 25px;
+    }
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 40vh !important;
+        margin-top: -7%;
+    }
+    footer{
+        padding: 15px;
+    }
+
+}
+/* tablet responsive */
+@media (min-width:  768px) and (min-height: 700px) and (max-width: 840px) and (max-height: 750px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .text-125 {
+        font-size: 90px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 25px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+.sound-proff-studio{
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    .text-20 {
+        font-size: 18px;
+    }
+
+    .sec-2 {
+       height: 60vh;
+        object-fit: cover;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .sp-y {
+        font-size: 70px;
+    }
+
+    .spstd {
+        font-size: 70px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: none !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 65vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 250px;
+        margin-top: 20%;
+    }
+
+    .fs-100 {
+        font-size: 70px;
+    }
+
+    #parallex_mb {
+        margin-top: 58%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 20rem !important;
+        height: 37vh;
+    }
+#editing_service{
+    width: 100vw;
+    height: 40vh;
+    margin-top: 58px;
+    object-fit: contain;
+}
+.pt-custom-mobile{
+    margin-top: 25%;
+}
+    .text-16-sm {
+        font-size: 17px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 100vh !important;
+        margin-top: 5%;
+    }
+
+    .sethar {
+        height: 52vh;
+    }
+
+    .sethar_sm {
+        top: 300px;
+    }
+
+    .card_news {
+        width: 22rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 50vh;
+    }
+    .new-width{
+        width: 22rem;
+    }
+    .cust-margin-studio1{
+        width: 35rem !important;
+        /* margin-bottom: 100%; */
+    }
+    .cust-margin-studio2{
+        width: 35rem !important;
+        margin-bottom: 5%;
+    }
+    .cust-div-video{
+        width: 22rem;
+    }
+    .cust-div{
+        width: 23.5rem;
+    }
+    .cust-margin-studio2{
+        margin-top: 15%;
+    }
+    /* footer */
+    .text-30{
+        font-size: 25px;
+    }
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 40vh;
+        margin-top: -7%;
+    }
+    footer{
+        padding: 15px;
+    }
+
+}
+
+/* next hub */
+@media (min-width:  1010px) and (min-height: 580px) and (max-width: 1030px) and (max-height: 620px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .video-background{
+        height: 100vh;
+    }
+    .video-background video {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    .text-125 {
+        font-size: 90px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 25px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+    .sound-proff-studio{
+    min-height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .sec-drone-home {
+        background: url(../assets/file.png) fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 70vh;
+    }
+    .sec-drone-home .drone-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .text-20 {
+        font-size: 18px;
+    }
+
+    .sec-2 {
+       height: 60vh;
+        object-fit: cover;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: 33vh;
+        object-fit: contain;
+    }
+
+    .sp-y {
+        font-size: 70px;
+    }
+
+    .spstd {
+        font-size: 70px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: none !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 250px;
+        margin-top: 20%;
+    }
+
+    .fs-100 {
+        font-size: 70px;
+    }
+
+    #parallex_mb {
+        margin-top: 53%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 20rem !important;
+        height: 47vh;
+    }
+
+    .text-16-sm {
+        font-size: 17px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        /* height: 50vh !important; */
+        margin-top: 10%;
+    }
+
+    .sethar {
+        height: 65vh;
+    }
+
+    .sethar_sm {
+        top: 300px;
+    }
+
+    .card_news {
+        width: 22rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 50vh;
+    }
+    .new-width{
+        width: 22rem;
+    }
+    .cust-margin-studio1{
+        width: 35rem !important;
+        /* margin-bottom: 100%; */
+    }
+    .cust-margin-studio2{
+        width: 35rem !important;
+        margin-bottom: 5%;
+    }
+    .cust-div-video{
+        width: 22rem;
+    }
+    .cust-div{
+        width: 23.5rem;
+    }
+    .cust-margin-studio2{
+        margin-top: 15%;
+    }
+    /* footer */
+    .text-30{
+        font-size: 25px;
+    }
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 60vh;
+        /* margin-top: -7%; */
+    }
+    footer{
+        padding: 15px;
+    }
+
+}
+/* next hub max */
+@media (min-width:  1200px) and (min-height: 760px) and (max-width: 1300px) and (max-height: 820px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .video-background{
+        height: 100vh;
+    }
+    .video-background video {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    .text-125 {
+        font-size: 90px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 25px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+    .sound-proff-studio{
+    min-height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .sec-drone-home {
+        background: url(../assets/file.png) fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 70vh;
+    }
+    .sec-drone-home .drone-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .text-20 {
+        font-size: 18px;
+    }
+
+    .sec-2 {
+       height: 60vh;
+        object-fit: cover;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: 50vh;
+        object-fit: contain;
+    }
+
+    .sp-y {
+        font-size: 70px;
+    }
+
+    .spstd {
+        font-size: 70px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: none !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 250px;
+        margin-top: 20%;
+    }
+
+    .fs-100 {
+        font-size: 70px;
+    }
+
+    #parallex_mb {
+        margin-top: 62%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 20rem !important;
+        height: 34vh;
+    }
+
+    .text-16-sm {
+        font-size: 17px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        /* height: 50vh !important; */
+        margin-top: 8%;
+    }
+
+    .sethar {
+        height: 47vh;
+    }
+
+    .sethar_sm {
+        top: 300px;
+    }
+
+    .card_news {
+        width: 22rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 50vh;
+    }
+    .new-width{
+        width: 22rem;
+    }
+    .cust-margin-studio1{
+        width: 35rem !important;
+        /* margin-bottom: 100%; */
+    }
+    .cust-margin-studio2{
+        width: 35rem !important;
+        margin-bottom: 5%;
+    }
+    .cust-div-video{
+        width: 22rem;
+    }
+    .cust-div{
+        width: 23.5rem;
+    }
+    .cust-margin-studio2{
+        margin-top: 15%;
+    }
+    /* footer */
+    .text-30{
+        font-size: 25px;
+    }
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 50vh;
+        /* margin-top: -7%; */
+    }
+    footer{
+        padding: 15px;
+    }
+
+}
+
+/* ipad pro */
+@media (min-width:  1010px) and (min-height: 1360px) and (max-width: 1030px) and (max-height: 1370px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .video-background{
+        height: 50vh;
+    }
+    .video-background video {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+    .text-125 {
+        font-size: 90px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 25px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+    .sound-proff-studio{
+    min-height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .sec-drone-home {
+        background: url(../assets/file.png) fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 30vh;
+    }
+    .sec-drone-home .drone-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .text-20 {
+        font-size: 18px;
+    }
+
+    .sec-2 {
+       height: 60vh;
+        object-fit: cover;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: 33vh;
+        object-fit: contain;
+    }
+
+    .sp-y {
+        font-size: 70px;
+    }
+
+    .spstd {
+        font-size: 70px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: none !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 250px;
+        margin-top: 20%;
+    }
+
+    .fs-100 {
+        font-size: 70px;
+    }
+
+    #parallex_mb {
+        margin-top: 53%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 20rem !important;
+        height: 20vh;
+    }
+
+    .text-16-sm {
+        font-size: 17px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 50vh !important;
+        margin-top: 10%;
+    }
+
+    .sethar {
+        height: 28vh;
+    }
+
+    .sethar_sm {
+        top: 300px;
+    }
+
+    .card_news {
+        width: 22rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 50vh;
+    }
+    .new-width{
+        width: 22rem;
+    }
+    .cust-margin-studio1{
+        width: 35rem !important;
+        /* margin-bottom: 100%; */
+    }
+    .cust-margin-studio2{
+        width: 35rem !important;
+        margin-bottom: 5%;
+    }
+    .cust-div-video{
+        width: 22rem;
+    }
+    .cust-div{
+        width: 23.5rem;
+    }
+    .cust-margin-studio2{
+        margin-top: 15%;
+    }
+    /* footer */
+    .text-30{
+        font-size: 25px;
+    }
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 40vh !important;
+        margin-top: -7%;
+    }
+    footer{
+        padding: 15px;
+    }
+
+}
+/* min laptop */
+@media (min-width:  1012px) and (min-height: 710px) and (max-width:  1030px) and (max-height: 730px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .video-background{
+        height: 70vh;
+    }
+    .video-background video {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+    .text-125 {
+        font-size: 90px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 25px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+    .sound-proff-studio{
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .sec-drone-home {
+        background: url(../assets/file.png) fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 70vh;
+    }
+    .sec-drone-home .drone-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .text-20 {
+        font-size: 18px;
+    }
+
+    .sec-2 {
+       height: 60vh;
+        object-fit: cover;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: 50vh;
+        object-fit: contain;
+    }
+
+    .sp-y {
+        font-size: 70px;
+    }
+
+    .spstd {
+        font-size: 70px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: none !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 86vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 250px;
+        margin-top: 20%;
+    }
+
+    .fs-100 {
+        font-size: 70px;
+    }
+
+    #parallex_mb {
+        margin-top: 60%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 20rem !important;
+        height: 38vh;
+    }
+
+    .text-16-sm {
+        font-size: 17px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        /* height: 50vh; */
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 100vh !important;
+        margin-top: 5%;
+    }
+
+    .sethar {
+        height: 52vh;
+    }
+
+    .sethar_sm {
+        top: 300px;
+    }
+
+    .card_news {
+        width: 22rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 50vh;
+    }
+    .new-width{
+        width: 22rem;
+    }
+    .cust-margin-studio1{
+        width: 35rem !important;
+        /* margin-bottom: 100%; */
+    }
+    .cust-margin-studio2{
+        width: 35rem !important;
+        margin-bottom: 5%;
+    }
+    .cust-div-video{
+        width: 22rem;
+    }
+    .cust-div{
+        width: 23.5rem;
+    }
+    .cust-margin-studio2{
+        margin-top: 15%;
+    }
+    /* footer */
+    .text-30{
+        font-size: 25px;
+    }
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 50vh;
+        margin-top: -7%;
+    }
+    footer{
+        padding: 15px;
+    }
+
+}
+/* large laptop */
+@media (min-width:  1420px) and (min-height: 710px) and (max-width:  1450px) and (max-height: 730px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .video-background{
+        height: 70vh;
+    }
+    #editing_service{
+        width: 100vw;
+        height: 50vh;
+        object-fit: contain;
+    }
+    .video-background video {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+    .text-125 {
+        font-size: 90px !important;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50px;
+        height: 70px;
+    }
+
+    .xgen_media {
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+
+    .text-25-heading {
+        font-family: "DM Sans", Sans-serif;
+        font-size: 25px;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+    }
+
+    .custom-button span {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    #front_video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .only-text-120 {
+        font-size: 40px;
+    }
+    .sound-proff-studio{
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .sec-drone-home {
+        background: url(../assets/file.png) fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 70vh;
+    }
+    .sec-drone-home .drone-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .text-20 {
+        font-size: 18px;
+    }
+
+    .sec-2 {
+       height: 60vh;
+        object-fit: cover;
+    }
+
+    .btn-lm {
+        width: 120px;
+        height: 37px;
+    }
+
+    .btn-lm span {
+        display: flex;
+    }
+
+    .video-sec2 {
+        /* margin-top: 25px; */
+        width: 100vw;
+        height: 50vh;
+        object-fit: contain;
+    }
+
+    .sp-y {
+        font-size: 70px;
+    }
+
+    .spstd {
+        font-size: 70px;
+    }
+
+    .spstd-p {
+        font-size: 16px;
+    }
+
+    .studio {
+        top: 0;
+        width: 100vw;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .moving-sec {
+        height: 60vh;
+    }
+
+    .custom-button1 span {
+        display: flex;
+        font-size: 16px;
+        width: 100px;
+        height: 25px;
+    }
+
+    .btn-lm>span {
+        display: flex;
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .btn-bat {
+        font-size: 15px;
+    }
+
+    .text-20 {
+        font-size: 15px !important;
+    }
+
+    .drone-img {
+        display: none;
+    }
+
+    .video-sec22 {
+        width: 100vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-top: -55%;
+        top: -35%;
+    }
+
+    .sec-drone {
+        height: 25vh;
+    }
+
+    .pt-custom-mobile {
+        margin-bottom: 150px;
+    }
+
+    .h_auto {
+        height: auto !important;
+    }
+
+    .d-sm-block {
+        display: none !important;
+    }
+
+    .h_50 {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-gallery {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .gallery_heading {
+        height: 250px;
+        margin-top: 20%;
+    }
+
+    .fs-100 {
+        font-size: 70px;
+    }
+
+    #parallex_mb {
+        margin-top: 50%;
+    }
+
+    .mb-sm-35 {
+        margin-top: 35px;
+    }
+
+    .partner-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* slider */
+    .web_card_sm {
+        width: 20rem !important;
+        height: 38vh;
+    }
+
+    .text-16-sm {
+        font-size: 17px !important;
+    }
+
+    .sm_card {
+        width: 6rem !important;
+        top: 190px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+
+    #our_video {
+        width: 100vw;
+        /* height: 50vh; */
+        object-fit: cover;
+    }
+
+    .fs_sm_16 {
+        font-size: 16px !important;
+    }
+
+    .testimonial {
+        height: 100vh !important;
+        margin-top: 5%;
+    }
+
+    .sethar {
+        height: 52vh;
+    }
+
+    .sethar_sm {
+        top: 300px;
+    }
+
+    .card_news {
+        width: 22rem !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .height_70 {
+        height: 50vh;
+    }
+    .new-width{
+        width: 22rem;
+    }
+    .cust-margin-studio1{
+        width: 35rem !important;
+        /* margin-bottom: 100%; */
+    }
+    .cust-margin-studio2{
+        width: 35rem !important;
+        margin-bottom: 5%;
+    }
+    .cust-div-video{
+        width: 22rem;
+    }
+    .cust-div{
+        width: 23.5rem;
+    }
+    .cust-margin-studio2{
+        margin-top: 15%;
+    }
+    /* footer */
+    .text-30{
+        font-size: 25px;
+    }
+    .sec-3 {
+        display: flex;
+        align-items: center;
+        height: 50vh;
+        margin-top: -7%;
+    }
+    footer{
+        padding: 15px;
+    }
+
+}

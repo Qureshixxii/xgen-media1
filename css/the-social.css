@@ -1,0 +1,317 @@
+#front_video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+#sec_2_video {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+    position: absolute;  /* Ensure it stays in the background */
+    top: 0;
+    left: 0;
+    z-index: 0;  /* Make sure the video stays behind everything else */
+}
+
+.sec_main{
+    height: 100vh !important;
+    background-color: #000000;
+    opacity: 0.65;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;  /* Keep the black overlay above the video but below the content */
+}
+
+.container1 {
+    position: relative;
+    z-index: 2;  /* Ensure text stays above the black overlay */
+}
+
+.text-100 {
+    font-size: 100px;
+}
+
+.navbar {
+    background: transparent !important;
+    /* position: absolute; */
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    }
+    .text-25-heading{
+        font-family: "DM Sans", Sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        word-spacing: 2px;
+        color: #FFBE02;
+    }
+
+    /* button */
+    .custom-button {
+        position: relative;
+        border: 2px solid white !important;
+        background: transparent;
+        color: white;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        transition: color 0.3s ease;
+    }
+    .custom-button1 {
+        position: relative;
+        border: 2px solid #FFC107 !important;
+        background: transparent;
+        color: #FFC107;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        transition: color 0.3s ease;
+    }
+    
+    .custom-button:hover {
+        color: white; /* Ensure text color stays visible */
+        border: 2px solid rgb(255, 187, 0) !important;
+    }
+    .custom-button1:hover {
+        color: rgb(0, 0, 0) !important; /* Ensure text color stays visible */
+        border: 2px solid rgb(235, 235, 235) !important;
+    }
+    
+    .custom-button::before,
+    .custom-button::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        background: rgb(255, 187, 0); /* Red background for animation */
+        left: 0;
+        z-index: 0;
+        transition: top 0.4s ease, bottom 0.4s ease; /* Smooth sliding effect */
+    }
+    .custom-button1::before,
+    .custom-button1::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        background:  rgb(235, 235, 235); /* Red background for animation */
+        left: 0;
+        z-index: 0;
+        transition: top 0.4s ease, bottom 0.4s ease; /* Smooth sliding effect */
+    }
+    
+    .custom-button::before {
+        top: -100%; /* Start above the button */
+    }
+    
+    .custom-button::after {
+        bottom: -100%; /* Start below the button */
+    }
+    
+    .custom-button:hover::before {
+        top: 0; /* Slide down to cover top half */
+    }
+    
+    .custom-button:hover::after {
+        bottom: 0; /* Slide up to cover bottom half */
+    }
+    
+    .custom-button span {
+        position: relative;
+        z-index: 1; /* Ensure text stays above the background */
+    }
+    
+    .custom-button1::before {
+        top: -100%; /* Start above the button */
+    }
+    
+    .custom-button1::after {
+        bottom: -100%; /* Start below the button */
+    }
+    
+    .custom-button1:hover::before {
+        top: 0; /* Slide down to cover top half */
+    }
+    
+    .custom-button1:hover::after {
+        bottom: 0; /* Slide up to cover bottom half */
+    }
+    
+    .custom-button1 span {
+        position: relative;
+        z-index: 1; /* Ensure text stays above the background */
+    }
+.h100{
+    height: 100vh;
+}
+.h_70{
+    height: 70vh;
+}
+.text_20{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 2.8px;
+}
+.dm-sns{
+    font-family: "DM Sans", Sans-serif;
+}
+.text-100{
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 0.7em;
+    letter-spacing: 0.01em;
+}
+.text_18{
+    font-size: 18px;
+    font-family: "Manrope", Sans-serif;
+}
+.input::placeholder{
+    color: #fff !important;
+}
+.height_70{
+    height: 70vh;
+}
+.web_bluebackground{
+    background: #14416b;
+}
+.height_30{
+    height: 30vh;
+}
+.height_85{
+    height: 85vh;
+}
+.text-30{
+    font-size: 30px;
+    font-family: "Manrope", serif !important;
+    font-weight: 500;
+}
+.text-17{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Manrope';
+}
+.backround-footer-input{
+    background: #283b50 !important;
+    color: #8699ad;
+    border: #283b50;
+    box-shadow: none !important;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 10px;
+}
+.sec_main1{
+    height: 50vh !important;
+    background-color: #000000;
+    opacity: 0.65;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;  /* Keep the black overlay above the video but below the content */
+}
+.h_50{
+    height: 50%;
+}
+.fs-100 {
+    font-size: 100px;
+    font-family: "League Gothic", serif !important;
+    font-weight: 500;
+}
+.text-15{
+    font-size: 15px;
+  font-family: "Manrope", Sans-serif;
+}
+.overlay-img-singer{
+    background-attachment: fixed;
+    background-image: url(../assets/HHS_1118.jpg);
+}
+.sec-3-social{
+    height: auto;
+    background: url(../assets/Our-partner-bg.png);
+    background-color: #191919;
+    background-size: cover;
+}
+.video-background video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+#Gallery_video{
+    height: 66vh;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.background-overlay-form{
+    background: url(../assets/Get-in-touch.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+.w-90{
+    width: 85%;
+}
+.margin_top{
+    margin-top: 15%;
+}
+@media (max-width: 768px) {
+    .fs-100{
+        font-size: 50px;
+    }
+    .text-30{
+        font-size: 25px;
+    }
+    .text-17{
+        font-size: 15px;
+    }
+    .text-100{
+        font-size: 40px;
+    }
+    .text_18{
+        font-size: 16px;
+    }
+}
+@media (min-width: 780px) and (max-width: 1000px) {
+    .text-100{
+        font-size: 80px;
+    }
+    .margin_top{
+        margin-top: 15%;
+    }
+    .fs-100{
+        font-size: 50px;
+    }
+}
+@media (min-width: 340px) and (max-width: 360px) {
+    /* .sec-main{
+        height: 120vh;
+    }
+    #front_video{
+        width: 100vw;
+        height: 130vh;
+        object-fit: cover;
+    } */
+    /* .h100 {
+        height: 130vh;
+    } */
+    /* .sec_main{
+        height: 130vh !important;
+    } */
+    .text_20{
+        font-size: 12px;
+    }
+}

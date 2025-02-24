@@ -1,0 +1,250 @@
+.dropdown:hover .dropdown-menu{
+display: block;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.background-web-black{
+    background: #191919;
+}
+.navbar {
+    background: transparent !important;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+.video-sec2{
+    width: 100vw;
+    /* height: 90vh; */
+    object-fit: cover;
+}
+.home-first-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+/* Full height video background */
+.video-background {
+    position: relative;
+    height: 100vh; /* Ensure the video fills the screen */
+    overflow: hidden;
+}
+
+.rounded-circle{
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+}
+.sound-proff-studio{
+    min-height: 70vh;
+    background: url(../assets/Podcast-Studio.png) fixed;
+    background-size: cover;
+
+}
+.sec-drone-home{
+    background: url(../assets/file.png) fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* z-index: -999; */
+    min-height: 70vh;
+}
+.text-125{
+    font-family: "League Gothic", serif !important;
+    font-size: 125px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: .7em;
+    letter-spacing: .01em;
+    color: #FFF;
+}
+.text-25{
+    font-size: 25px;
+    font-family: "League Gothic", serif !important;
+}
+.text-25-heading{
+    font-family: "DM Sans", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    word-spacing: 2px;
+    color: #FFBE02;
+}
+
+.custom-button {
+    position: relative;
+    border: 2px solid white !important;
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+.custom-button1 {
+    position: relative;
+    border: 2px solid #FFC107 !important;
+    background: transparent;
+    color: #FFC107;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+
+.custom-button:hover {
+    color: white; /* Ensure text color stays visible */
+    border: 2px solid rgb(255, 187, 0) !important;
+}
+.custom-button1:hover {
+    color: rgb(0, 0, 0) !important; /* Ensure text color stays visible */
+    border: 2px solid rgb(235, 235, 235) !important;
+}
+
+.custom-button::before,
+.custom-button::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: rgb(255, 187, 0); /* Red background for animation */
+    left: 0;
+    z-index: 0;
+    transition: top 0.4s ease, bottom 0.4s ease; /* Smooth sliding effect */
+}
+.custom-button1::before,
+.custom-button1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background:  rgb(235, 235, 235); /* Red background for animation */
+    left: 0;
+    z-index: 0;
+    transition: top 0.4s ease, bottom 0.4s ease; /* Smooth sliding effect */
+}
+
+.custom-button::before {
+    top: -100%; /* Start above the button */
+}
+
+.custom-button::after {
+    bottom: -100%; /* Start below the button */
+}
+
+.custom-button:hover::before {
+    top: 0; /* Slide down to cover top half */
+}
+
+.custom-button:hover::after {
+    bottom: 0; /* Slide up to cover bottom half */
+}
+
+.custom-button span {
+    position: relative;
+    z-index: 1; /* Ensure text stays above the background */
+}
+
+
+
+.custom-button1::before {
+    top: -100%; /* Start above the button */
+}
+
+.custom-button1::after {
+    bottom: -100%; /* Start below the button */
+}
+
+.custom-button1:hover::before {
+    top: 0; /* Slide down to cover top half */
+}
+
+.custom-button1:hover::after {
+    bottom: 0; /* Slide up to cover bottom half */
+}
+
+.custom-button1 span {
+    position: relative;
+    z-index: 1; /* Ensure text stays above the background */
+}
+
+
+
+.h100{
+    height: 100vh;
+}
+   
+.music-btn {
+    font-size: 3.5rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    /* Optional: Button ke edge se thoda space dene ke liye */
+    z-index: 1000;
+    /* Ensure ke button hamesha top layer par rahe */
+}
+.only-text-120{
+    font-family: "League Gothic", serif !important;
+    font-size: 120px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1em;
+}
+.font-fm-Manrope{
+font-family: 'Manrope' !important;
+}
+.text-20{
+    font-size: 20px;
+}
+.sec-2 {
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Vertically centers the content */
+    justify-content: center; /* Horizontally centers the content */
+}
+.h80{
+    height: 80vh;
+}
+.sec-3{
+    background-color: #191919;
+    background: url("../assets/Our-partner-bg.png");
+   background-position-x: 1500px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.height_130{
+height: 130vh;
+}
+.sec-5{
+    background-color: #171717;
+    background-image: url(../assets/Our-partner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 50vh; */
+}
+.fs-100{
+    font-size: 100px;
+    font-family: "League Gothic", serif !important;
+    font-weight: 500;
+}
+
+.fs-50{
+    font-size: 50px;
+    font-family: "League Gothic", serif !important;
+    font-weight: 500;
+}
+.web_background{
+    background-color: #14416b !important;
+}

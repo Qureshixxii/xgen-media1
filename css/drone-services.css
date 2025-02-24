@@ -1,0 +1,914 @@
+#front_video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#sec_2_video {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+    position: absolute;  /* Ensure it stays in the background */
+    top: 0;
+    left: 0;
+    z-index: 0;  /* Make sure the video stays behind everything else */
+}
+.bottom-30{
+    bottom: 15%;
+}
+.sec_main{
+    height: 100vh !important;
+    background-color: #000000;
+    opacity: 0.50;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;  /* Keep the black overlay above the video but below the content */
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    }
+.text-100{
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 0.7em;
+    letter-spacing: 0.01em;
+}
+
+#our_video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+ }
+ .text-40{
+    font-size: 40px;
+ }
+ 
+.h100{
+    height: 100vh;
+}
+ .font-leauge-gothic{
+    font-family: "League Gothic", serif !important;
+}
+.background_ovelay_image{
+    background: url(../assets/Drone-bg.png) fixed;
+}
+.text-15{
+    font-size: 15px;
+    font-family: Manrope;
+}
+#secvideo{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.sec-drone-home{
+    background: url(../assets/file.png) fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* z-index: -999; */
+    min-height: 70vh;
+}
+.text-125{
+    font-family: "League Gothic", serif !important;
+    font-size: 125px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: .7em;
+    letter-spacing: .01em;
+    color: #FFF;
+}
+.text-25{
+    font-size: 25px;
+    font-family: "League Gothic", serif !important;
+}
+.text-25-heading{
+    font-family: "DM Sans", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    word-spacing: 2px;
+    color: #FFBE02;
+}
+
+.custom-button {
+    position: relative;
+    border: 2px solid white !important;
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+.custom-button1 {
+    position: relative;
+    border: 2px solid #FFC107 !important;
+    background: transparent;
+    color: #FFC107;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+
+.custom-button:hover {
+    color: white; /* Ensure text color stays visible */
+    border: 2px solid rgb(255, 187, 0) !important;
+}
+.custom-button1:hover {
+    color: rgb(0, 0, 0) !important; /* Ensure text color stays visible */
+    border: 2px solid rgb(235, 235, 235) !important;
+}
+
+.custom-button::before,
+.custom-button::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: rgb(255, 187, 0); /* Red background for animation */
+    left: 0;
+    z-index: 0;
+    transition: top 0.4s ease, bottom 0.4s ease; /* Smooth sliding effect */
+}
+.custom-button1::before,
+.custom-button1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background:  rgb(235, 235, 235); /* Red background for animation */
+    left: 0;
+    z-index: 0;
+    transition: top 0.4s ease, bottom 0.4s ease; /* Smooth sliding effect */
+}
+
+.custom-button::before {
+    top: -100%; /* Start above the button */
+}
+
+.custom-button::after {
+    bottom: -100%; /* Start below the button */
+}
+
+.custom-button:hover::before {
+    top: 0; /* Slide down to cover top half */
+}
+
+.custom-button:hover::after {
+    bottom: 0; /* Slide up to cover bottom half */
+}
+
+.custom-button span {
+    position: relative;
+    z-index: 1; /* Ensure text stays above the background */
+}
+.custom-button1::before {
+    top: -100%; /* Start above the button */
+}
+
+.custom-button1::after {
+    bottom: -100%; /* Start below the button */
+}
+
+.custom-button1:hover::before {
+    top: 0; /* Slide down to cover top half */
+}
+
+.custom-button1:hover::after {
+    bottom: 0; /* Slide up to cover bottom half */
+}
+
+.custom-button1 span {
+    position: relative;
+    z-index: 1; /* Ensure text stays above the background */
+}
+.text-18{
+    font-size: 18px;
+}
+.text-90{
+    font-family: "League Gothic", Sans-serif;
+    font-size: 90px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1em;
+    color: #FFF;
+}
+.height-70{
+    height: 70vh;
+}
+
+@media (min-width: 320px) and (max-width: 340px){
+    .input::placeholder {
+        font-size: 14px;
+    }
+    .row{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container-fluid{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    #our_video{
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: -1;
+     }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 40px;
+    }
+    .bottom-30{
+        bottom: 30%;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 15px;
+    }
+    #form_video{
+        height: 80vh;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 15px;
+    }
+    
+}
+
+
+@media (min-width: 340px) and (max-width: 360px){
+    .input::placeholder {
+        font-size: 14px;
+    }
+    .row{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container-fluid{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    #our_video{
+        width: 100vw;
+        height: 120vh;
+        object-fit: cover;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: -1;
+     }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 40px;
+    }
+    .bottom-30{
+        bottom: 15%;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 15px;
+    }
+    #form_video{
+        height: 80vh;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 15px;
+    }
+    
+}
+
+@media (min-width: 370px) and (max-width: 380px){
+    .input::placeholder {
+        font-size: 14px;
+    }
+    .row{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container-fluid{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    #our_video{
+        width: 100vw;
+        height: 120vh;
+        object-fit: cover;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: -1;
+     }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 40px;
+    }
+    .bottom-30{
+        bottom: 3%;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 15px;
+    }
+    #form_video{
+        height: 120vh;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 15px;
+    }
+    
+}
+
+@media (min-width: 390px) and (max-width: 415px){
+    .row{
+        --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    }
+    .container{
+        --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    }
+    .container-fluid{
+        --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 40px;
+    }
+    .bottom-30{
+        bottom: 22%;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 15px;
+    }
+    #form_video{
+        height: 120vh;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 430px){
+    .row{
+        --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    }
+    .container{
+        --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    }
+    .container-fluid{
+        --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 40px;
+    }
+    .bottom-30{
+        bottom: 22%;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 15px;
+    }
+    #form_video{
+        height: 120vh;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 420px) and (min-height: 1000px) and (max-width: 430px) and (max-height: 1030){
+    .row{
+        --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    }
+    .container{
+        --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    }
+    .container-fluid{
+        --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 40px;
+    }
+    .bottom-30{
+        bottom: 22%;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 15px;
+    }
+    #form_video{
+        height: 120vh;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 640px){
+    .row{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+    .container-fluid{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 40px;
+    }
+    .bottom-30{
+        bottom: 22%;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 15px;
+    }
+    #form_video{
+        height: 120vh;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 800px){
+    .row{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+    .container-fluid{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 80px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 90px;
+    }
+    .bottom-30{
+        bottom: 22%;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 17px;
+    }
+    #form_video{
+        height: 120vh;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 810px) and (max-width: 840px){
+    .row{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+    .container-fluid{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 80px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 90px;
+    }
+    .bottom-30{
+        bottom: 22%;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 17px;
+    }
+    #form_video{
+        height: 120vh;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1030px){
+    .background_ovelay_image{
+        background: url(../assets/Drone-bg.png) fixed;
+        background-position: center;
+        height: 45vh;
+    }
+    .row{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+    .container-fluid{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 80px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 90px;
+    }
+    .bottom-30{
+        bottom: 22%;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 17px;
+    }
+    #form_video{
+        height: 120vh;
+    }
+    #our_video {
+        width: 100vw;
+        height: 60vh;
+        margin-top: -3px;
+        /* object-fit: cover; */
+    }
+    #secvideo {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    .height-70 {
+        height: 50vh;
+        margin-top: -3px;
+    }
+    .top-margin{
+        margin-top: 20%;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 18px;
+    }
+    .custom-height{
+        height: 50vh;
+    }
+}
+@media (min-width: 1000px) and (min-height: 900px) and (max-width: 1030px) and (max-height: 1200px){
+    .height_70{
+        height: 60vh;
+    }
+    .bottom-30{
+        bottom: 12%;
+    }
+}
+/* nesthub */
+@media (min-width: 1000px) and (min-height: 580px) and (max-width: 1030px) and (max-height: 700px){
+    .background_ovelay_image{
+        background: url(../assets/Drone-bg.png) fixed;
+        background-position: center;
+        height: 100vh;
+    }
+   #our_video{
+    height: 113vh;
+   }
+   .top-margin{
+    margin-top: 0;
+}
+.height-70{
+    height: 70vh;
+}
+#secvideo{
+    height: 70vh;
+}
+    .row{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+   
+    .container-fluid{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 80px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 90px;
+    }
+    .bottom-30{
+        bottom: 0;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 17px;
+    }
+    #form_video{
+        height: 130vh;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 1200px) and (min-height: 700px) and (max-width: 1300px) and (max-height: 900px){
+    .background_ovelay_image{
+        background: url(../assets/Drone-bg.png) fixed;
+        background-position: center;
+        height: 100vh;
+    }
+   #our_video{
+    height: 113vh;
+   }
+    .row{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    }
+    .container{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+   
+    .container-fluid{
+        --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+    }
+    .text-90{
+        font-size: 50px;
+    }
+    .text-100 {
+        font-family: "Bebas Neue", Sans-serif;
+        font-size: 80px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 0.7em;
+        letter-spacing: 0.01em;
+    }
+    .text-25-heading{
+        font-size: 20px;
+    }
+    .text-125{
+        font-size: 90px;
+    }
+    .bottom-30{
+        bottom: 15%;
+    }
+    .text-30{
+        font-size: 23px;
+    }
+    .text-17{
+        font-size: 17px;
+    }
+    #form_video{
+        height: 100vh;
+    }
+    input{
+        font-size: 16px;
+    }
+    .text-18{
+        font-size: 18px;
+    }
+}

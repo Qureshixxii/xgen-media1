@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        /* Loader styles */
+        #loader {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: repeating-linear-gradient(
+            0deg,
+            hsla(103, 11%, 32%, 0.09) 0px,
+            hsla(103, 11%, 32%, 0.09) 1px,
+            transparent 1px,
+            transparent 11px
+          ),
+          repeating-linear-gradient(
+            90deg,
+            hsla(103, 11%, 32%, 0.09) 0px,
+            hsla(103, 11%, 32%, 0.09) 1px,
+            transparent 1px,
+            transparent 11px
+          ),
+          linear-gradient(90deg, hsl(317, 13%, 6%), hsl(317, 13%, 6%));
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 9999;
+        }
+
+        #demo {
+          max-height: 80%;
+          max-width: 100%;
+          font-weight: 700;
+        }
+    </style>
+    <!-- Add GSAP Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Loader Element -->
+    <div id="loader">
+        <svg id="demo" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 100 100">
+            <defs>
+                <clipPath id="theClipPath">
+                    <rect id="theSquare" x="-15" y="50" width="1000" height="0" fill="red" />
+                </clipPath>
+            </defs>
+            <line id="target1" x1="0" y1="50" x2="0" y2="50" stroke-width="1" stroke="#fff" />
+            <line id="target2" x1="0" y1="50" x2="0" y2="50" stroke-width="1" stroke="#fff" />
+            <g id="clipPathReveal" clip-path="url(#theClipPath)">
+                <text transform="translate(50 55)" text-anchor="middle" font-size="13" fill="#fff">XGEN - MEDIA</text>
+            </g>
+        </svg>
+    </div>
+
+    <script>
+        console.clear();
+        const tl = gsap.timeline({
+            repeat: -1,
+            repeatDelay: 0.5,
+            defaults: { duration: 0.4, ease: "power2.inOut" }  // Decrease the duration for faster animations
+        });
+        gsap.set("#target1", { rotation: 45, svgOrigin: "50 50" });
+        gsap.set("#target2", { rotation: 135, svgOrigin: "50 50" });
+        
+        // Animate the lines to reveal the text and make sure the clipping path is applied correctly
+        tl.to("line", { attr: { x2: 100 } });
+        tl.to("#target1", { rotation: 0 }, "turn");
+        tl.to("#target2", { rotation: 180 }, "turn");
+        tl.to("#target1", { y: -10 }, "move");
+        tl.to("#target2", { y: 10 }, "move");
+        
+        // Increase the height of the clip-path (square) so that the entire text is visible
+        tl.to("#theSquare", { attr: { height: 50, y: 30 } }, "move"); // Adjust the height and position to ensure visibility
+        
+        // Final adjustment to reset lines and fade out text
+        tl.to("line", { attr: { x1: 50, x2: 50 } });
+        tl.to("text", { duration: 0.1, opacity: 0, ease: "none" }); // Quick fade-out of the text
+
+        // Once the page is fully loaded, fade out the loader quickly
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                // Animate fade out of the loader faster
+                gsap.to("#loader", { opacity: 0, duration: 0.3, onComplete: () => {
+                    document.getElementById('loader').style.display = 'none'; // Hide the loader after fade-out
+                }});
+            }, 1500); // Ensure the loader stays visible for at least 1.5 seconds
+        });
+    </script>
+</body>
+</html>

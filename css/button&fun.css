@@ -1,0 +1,24 @@
+/* Style for the scroll-to-top button */
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: opacity 0.3s;
+}
+
+
+/* Hide the button when at the top of the page */
+#scrollToTopBtn {
+    opacity: 0;
+    display: none;
+}
+
+/* Show the button when scrolled down */
+#scrollToTopBtn.show {
+    display: block;
+    opacity: 1;
+}

@@ -1,0 +1,90 @@
+:root{
+    --yelo:#ffbe02;
+    }
+    .spstd{
+        font-family: "League Gothic", serif;
+        font-size: 100px;
+        color: white;
+    }
+
+    .sp-y{
+        color: var(--yelo);
+    }
+
+    .spstd-p{
+        color: white;
+        font-size: 22px;
+    }
+
+    .btn-lm{
+        border: 1px solid var(--yelo);
+        color: var(--yelo);
+        font-size: 20px;
+    }
+
+
+    .btn-lm:hover{
+        border: 1px solid white;
+        color: white;
+    }
+
+    .btn-bat{
+        border: 1px solid white;
+        color: white;
+        font-size: 20px;
+    }
+
+
+    .btn-bat:hover{
+        border: 1px solid var(--yelo);
+        color: white;
+    }
+
+.parallex-effect{
+    background: url("../assets/Testimonial.png");
+    background-attachment: fixed;
+}
+
+#our_video {
+    width: 100vw;
+    height: 75vh;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+ }
+.input::placeholder{
+    color: #fff !important;
+}
+.height_70{
+    height: 70vh;
+}
+.web_bluebackground{
+    background: #14416b;
+}
+.height_30{
+    height: 30vh;
+}
+.height_85{
+    height: 85vh;
+}
+.text-30{
+    font-size: 30px;
+    font-family: "Manrope", serif !important;
+    font-weight: 500;
+}
+.text-17{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Manrope';
+}
+.backround-footer-input{
+    background: #283b50 !important;
+    color: #8699ad;
+    border: #283b50;
+    box-shadow: none !important;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 10px;
+}

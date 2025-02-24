@@ -1,0 +1,1233 @@
+.text_25{
+    font-size: 25px;
+    font-family: "DM Sans", Sans-serif;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.video-sec2 {
+    object-fit: cover;
+    /* To maintain aspect ratio */
+    /* To fill the container */
+}
+
+.contact-background {
+    background-color: #031126;
+}
+.h100{
+    height: 100vh;
+}
+
+.text-30{
+font-size: 30px;
+font-family: "Manrope", serif !important;
+font-weight: 500;
+}
+.text-17{
+font-size: 17px;
+font-weight: 400;
+font-family: 'Manrope';
+}
+.backround-footer-input{
+background: #283b50 !important;
+color: #8699ad;
+border: #283b50;
+box-shadow: none !important;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+padding: 10px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    }
+    
+
+.input::placeholder{
+color: #fff !important;
+}
+.height_70{
+height: 70vh;
+}
+.web_bluebackground{
+background: #14416b;
+}
+.height_30{
+height: 30vh;
+}
+
+.custom-button {
+position: relative;
+border: 2px solid white !important;
+background: transparent;
+color: white;
+border: none;
+cursor: pointer;
+overflow: hidden;
+transition: color 0.3s ease;
+}
+.custom-button1 {
+position: relative;
+border: 2px solid #FFC107 !important;
+background: transparent;
+color: #FFC107;
+border: none;
+cursor: pointer;
+overflow: hidden;
+transition: color 0.3s ease;
+}
+
+.custom-button:hover {
+color: white; /* Ensure text color stays visible */
+border: 2px solid rgb(255, 187, 0) !important;
+}
+.custom-button1:hover {
+color: rgb(0, 0, 0) !important; /* Ensure text color stays visible */
+border: 2px solid rgb(235, 235, 235) !important;
+}
+
+.custom-button::before,
+.custom-button::after {
+content: "";
+position: absolute;
+width: 100%;
+height: 50%;
+background: rgb(255, 187, 0); /* Red background for animation */
+left: 0;
+z-index: 0;
+transition: top 0.4s ease, bottom 0.4s ease; /* Smooth sliding effect */
+}
+.custom-button1::before,
+.custom-button1::after {
+content: "";
+position: absolute;
+width: 100%;
+height: 50%;
+background:  rgb(235, 235, 235); /* Red background for animation */
+left: 0;
+z-index: 0;
+transition: top 0.4s ease, bottom 0.4s ease; /* Smooth sliding effect */
+}
+
+.custom-button::before {
+top: -100%; /* Start above the button */
+}
+
+.custom-button::after {
+bottom: -100%; /* Start below the button */
+}
+
+.custom-button:hover::before {
+top: 0; /* Slide down to cover top half */
+}
+
+.custom-button:hover::after {
+bottom: 0; /* Slide up to cover bottom half */
+}
+
+.custom-button span {
+position: relative;
+z-index: 1; /* Ensure text stays above the background */
+}
+
+
+
+.custom-button1::before {
+top: -100%; /* Start above the button */
+}
+
+.custom-button1::after {
+bottom: -100%; /* Start below the button */
+}
+
+.custom-button1:hover::before {
+top: 0; /* Slide down to cover top half */
+}
+
+.custom-button1:hover::after {
+bottom: 0; /* Slide up to cover bottom half */
+}
+
+.custom-button1 span {
+position: relative;
+z-index: 1; /* Ensure text stays above the background */
+}
+
+.fs-100{
+    font-size: 100px;
+    font-family: "League Gothic", serif;
+}
+.text-20{
+    font-size: 20px;
+}
+.fs-50{
+    font-size: 50px;
+}
+
+.height_70{
+    height: 70vh;
+}
+.height_80{
+    height: 80vh ;
+}
+.text-80{
+    font-size: 80px;
+    font-family: "League Gothic", serif !important;
+}
+.text-100{
+font-size: 100px;
+}
+.top_margin{
+    margin-top: 10%;
+}
+.text-100{
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 0.7em;
+    letter-spacing: 0.01em;
+}
+.text_20{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 2.8px;
+}
+.overlay-background-1{
+background: url(../assets/podcast-space-2.png) fixed;
+}
+.background-overlay-form{
+    height: 100vh;
+    background: url(../assets/Get-in-touch-podcast.png) fixed;
+    background-size: cover;
+    background-position-y: top;
+}
+.overlay-background-2{
+    background: url(../assets/Studio-3_2.png) fixed;
+    }
+    .overlay-background-sound{
+background: url(../assets/Studio-BG.png) fixed;
+background-size: cover;
+    }
+    .overlay-background-3{
+        background: url(../assets/Podcast.png) fixed;
+        background-size: cover;
+            }
+
+            .custom-button{
+                padding: 10px 25px 10px 25px
+            }
+
+
+            
+
+
+
+            /* RESPONSIVE */
+@media (max-width: 700px) {
+    #front_video{
+        width: 100vw;
+        object-fit: cover;
+        height: 100vh;
+    }
+    .top_margin{
+        margin-top: 20%;
+    }
+}
+            @media (min-width: 370px) and (max-width: 400px){
+                html{
+                    overflow-x: hidden ;
+                }
+                .row{
+                    --bs-gutter-x: 0 !important;
+                --bs-gutter-y: 0 !important;
+                }
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+
+                .h100{
+                    height: 90vh;
+                }
+
+                .text_25{
+                    font-size: 15px;
+                }
+
+                .text-100{
+                    font-size: 50px;
+                }
+
+                .text-20{
+                    font-size: 15px;
+                }
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+                .ammen{
+                    font-size: 70px;
+                }
+
+                .ammen-sec{
+                    height: 120vh;
+                }
+
+                .serv-sec{
+                    height: auto;
+                }
+
+                .exp-sec{
+                    height: auto;
+                }
+
+                
+
+
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+
+                .text-30{
+                    font-size: 25px;
+                }
+
+            }
+
+            @media (min-width: 400px) and (max-width: 480px){
+                html{
+                    overflow-x: hidden ;
+                }
+                .row{
+                    --bs-gutter-x: 0 !important;
+                --bs-gutter-y: 0 !important;
+                }
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+
+                .h100{
+                    height: 90vh;
+                }
+
+                .text_25{
+                    font-size: 15px;
+                }
+
+                .text-100{
+                    font-size: 50px;
+                }
+
+                .text-20{
+                    font-size: 15px;
+                }
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+                .ammen{
+                    font-size: 70px;
+                }
+
+                .ammen-sec{
+                    height: 120vh;
+                }
+
+                .serv-sec{
+                    height: auto;
+                }
+
+                .exp-sec{
+                    height: auto;
+                }
+
+                
+
+
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+
+                .text-30{
+                    font-size: 25px;
+                }
+
+            }
+
+            @media (min-width: 480px) and (min-height: 360px) and (max-width: 500px) and (max-height: 400px){
+                html{
+                    overflow-x: hidden ;
+                }
+                .row{
+                    --bs-gutter-x: 0 !important;
+                --bs-gutter-y: 0 !important;
+                }
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+
+                .h100{
+                    height: 120vh;
+                }
+
+                .text_25{
+                    font-size: 15px;
+                }
+
+                .text-100{
+                    font-size: 50px;
+                }
+
+                .text-20{
+                    font-size: 12px;
+                }
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+                .ammen{
+                    font-size: 70px;
+                }
+
+                .ammen-sec{
+                    height: 120vh;
+                }
+
+                .serv-sec{
+                    height: auto;
+                }
+
+                .serv{
+                    font-size: 70px;
+                }
+
+
+                .exp-sec{
+                    height: auto;
+                }
+
+                .exp{
+                    font-size: 70px;
+                }
+
+
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+
+
+
+            }
+
+
+            @media (min-width: 480px) and (min-height: 360px) and (max-width: 500px) and (max-height: 720px){
+                html{
+                    overflow-x: hidden ;
+                }
+
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+
+                .h100{
+                    height: 70vh;
+                }
+
+                .text_25{
+                    font-size: 15px;
+                }
+
+                .text-100{
+                    font-size: 50px;
+                }
+
+                .text-20{
+                    font-size: 12px;
+                }
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+                .ammen{
+                    font-size: 70px;
+                }
+
+                .ammen-sec{
+                    height: 70vh;
+                }
+
+                .serv-sec{
+                    height: auto;
+                }
+
+                .serv{
+                    font-size: 70px;
+                }
+
+
+                .exp-sec{
+                    height: 70vh;
+                }
+
+                .exp{
+                    font-size: 70px;
+                }
+
+
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+
+
+
+            }
+            @media (min-width: 480px) and (min-height: 360px) and (max-width: 500px) and (max-height: 1080px){
+                html{
+                    overflow-x: hidden ;
+                }
+
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+
+                .h100{
+                    height: 50vh;
+                }
+
+                .text_25{
+                    font-size: 15px;
+                }
+
+                .text-100{
+                    font-size: 50px;
+                }
+
+                .text-20{
+                    font-size: 12px;
+                }
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+                .ammen{
+                    font-size: 70px;
+                }
+
+                .ammen-sec{
+                    height: 50vh;
+                }
+
+                .serv-sec{
+                    height: auto;
+                }
+
+                .serv{
+                    font-size: 70px;
+                }
+
+
+                .exp-sec{
+                    height: 50vh;
+                }
+
+                .exp{
+                    font-size: 70px;
+                }
+
+
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+
+            }
+
+
+            @media (min-width: 500px) and (min-height: 710px) and (max-width: 580px) and (max-height: 780px){
+                html{
+                    overflow-x: hidden ;
+                }
+                .row{
+                    --bs-gutter-x: 0;
+                }
+                
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+                #front_video{
+                    width: 100vw;
+                    object-fit: cover;
+                    height: 100vh;
+                }
+                .h100{
+                    height: 80vh;
+                }
+
+                .text_25{
+                    font-size: 15px;
+                }
+
+                .text-100{
+                    font-size: 60px;
+                }
+
+                .text-20{
+                    font-size: 16px;
+                }
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+                .ammen{
+                    font-size: 70px;
+                }
+
+                .ammen-sec{
+                    height: 50vh;
+                }
+
+                .serv-sec{
+                    height: auto;
+                }
+
+                .serv{
+                    font-size: 70px;
+                }
+
+
+                .exp-sec{
+                    height: 70vh;
+                }
+
+                .exp{
+                    font-size: 70px;
+                }
+
+
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+
+            }
+
+            @media (min-width: 780px ) and (max-width: 870px) {
+                #front_video{
+                    width: 100vw;
+                    object-fit: cover;
+                    height: 100vh;
+                }
+                .exp {
+                    font-size: 100px;
+                }
+                .text-30{
+                    font-size: 25px;
+                }
+            }
+            @media (min-width: 960px) and (min-height: 360px) and (max-width: 1080px) and (max-height: 420px){
+                html{
+                    overflow-x: hidden;
+                    width: 100vw;
+                }
+
+                #front_video{
+                    width: 100vw;
+                    /* height: 75vh;
+                    object-fit: cover; */
+                }
+
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+
+                .h100{
+                    height: 115vh;
+                    width: 100%;
+                }
+
+                .text_25{
+                    font-size: 15px;
+                }
+
+                .text-100{
+                    font-size: 50px;
+                }
+
+                .text-20{
+                    font-size: 12px;
+                }
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+                .ammen{
+                    font-size: 70px;
+                }
+
+                .ammen-sec{
+                    height: 110vh;
+                }
+
+                .serv-sec{
+                    height: 125vh;
+                }
+
+                .serv{
+                    font-size: 70px;
+                }
+
+
+                .exp-sec{
+                    height: 100vh;
+                }
+
+                .exp{
+                    font-size: 70px;
+                }
+
+
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+
+            }
+            @media (min-width: 960px) and (min-height: 421px) and (max-width: 1080px) and (max-height: 720px){
+                html{
+                    overflow-x: hidden;
+                    width: 100vw;
+                }
+
+                #front_video{
+                    width: 100vw;
+                    /* height: 75vh;
+                    object-fit: cover; */
+                }
+
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+
+                .h100{
+                    height: 70vh;
+                    width: 100%;
+                }
+
+                .text_25{
+                    font-size: 15px;
+                }
+
+                .text-100{
+                    font-size: 50px;
+                }
+
+                .text-20{
+                    font-size: 12px;
+                }
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+                .ammen{
+                    font-size: 70px;
+                }
+
+                .ammen-sec{
+                    height: 75vh;
+                }
+
+                .serv-sec{
+                    height: 75vh;
+                }
+
+                .serv{
+                    font-size: 70px;
+                }
+
+
+                .exp-sec{
+                    height: 70vh;
+                }
+
+                .exp{
+                    font-size: 70px;
+                }
+
+
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+
+            }
+            @media (min-width: 960px) and (min-height: 721px) and (max-width: 1080px) and (max-height: 1080px){
+                html{
+                    overflow-x: hidden;
+                    width: 100vw;
+                }
+
+                #front_video{
+                    width: 100vw;
+                    /* height: 75vh;
+                    object-fit: cover; */
+                }
+
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+
+                .h100{
+                    height: 50vh;
+                    width: 100%;
+                }
+
+                .text_25{
+                    font-size: 15px;
+                }
+
+                .text-100{
+                    font-size: 50px;
+                }
+
+                .text-20{
+                    font-size: 12px;
+                }
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+                .ammen{
+                    font-size: 70px;
+                }
+
+                .ammen-sec{
+                    height: 50vh;
+                }
+
+                .serv-sec{
+                    height: 60vh;
+                }
+
+                .serv{
+                    font-size: 70px;
+                }
+
+
+                .exp-sec{
+                    height: 50vh;
+                }
+
+                .exp{
+                    font-size: 70px;
+                }
+
+
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+
+            }
+            @media (min-width: 961px) and (min-height: 360px) and (max-width: 1440px) and (max-height: 420px){
+                html{
+                    overflow-x: hidden;
+                    width: 100vw;
+                }
+
+                #front_video{
+                    width: 100vw;
+                    /* height: 75vh;
+                    object-fit: cover; */
+                }
+
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+
+                .h100{
+                    height: 50vh;
+                    width: 100%;
+                }
+
+                .text_25{
+                    font-size: 15px;
+                }
+
+                .text-100{
+                    font-size: 50px;
+                }
+
+                .text-20{
+                    font-size: 12px;
+                }
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+                .ammen{
+                    font-size: 70px;
+                }
+
+                .ammen-sec{
+                    height: 50vh;
+                }
+
+                .serv-sec{
+                    height: 60vh;
+                }
+
+                .serv{
+                    font-size: 70px;
+                }
+
+
+                .exp-sec{
+                    height: 50vh;
+                }
+
+                .exp{
+                    font-size: 70px;
+                }
+
+
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+
+            }
+            @media (min-width: 1000px) and (min-height: 1000px) and (max-width: 1200px) and (max-height: 1200px){
+                html{
+                    overflow-x: hidden;
+                    width: 100vw;
+                }
+
+                #front_video{
+                    width: 100vw;
+                    height: 80vh;
+                    object-fit: cover;
+                }
+
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+
+                .h100{
+                    height: 80vh;
+                    width: 100%;
+                }
+
+                
+
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+              
+
+             
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+            }
+            @media (min-width: 1000px) and (min-height: 600px) and (max-width: 1400px) and (max-height: 800px){
+                html{
+                    overflow-x: hidden;
+                    width: 100vw;
+                }
+                .row{
+                    --bs-gutter-x: 0 !important;
+                --bs-gutter-y: 0 !important;
+                }
+                #front_video{
+                    width: 100vw;
+                    height: 100vh;
+                    object-fit: cover;
+                }
+
+                .xgen_media{
+                    height: 60px;
+                    width:60px;
+                    margin-bottom: 15px;
+                    
+                }
+
+                .h100{
+                    height: 100vh;
+                    width: 100%;
+                }
+
+                .text_25{
+                    font-size: 15px;
+                }
+
+                .text-100{
+                    font-size: 50px;
+                }
+
+                .text-20{
+                    font-size: 12px;
+                }
+
+                .custom-button{
+                    width: 150px;
+                    padding: 5px;
+                    padding-bottom: 7px;
+                }
+
+                .bstt{
+                    width: 50%;
+                    padding: 5px;
+                    
+                }
+
+                .ammen{
+                    font-size: 70px;
+                }
+
+
+                .serv{
+                    font-size: 70px;
+                }
+
+                .exp{
+                    font-size: 70px;
+                }
+
+
+                .form-sec{
+                    height: 200vh;
+                }
+
+                .book{
+                    font-size: 30px;
+                }
+
+                .pv,.ne{
+                    font-size: 70px;
+                }
+            }
+
+            
